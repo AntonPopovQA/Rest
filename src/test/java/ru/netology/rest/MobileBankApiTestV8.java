@@ -14,6 +14,6 @@ public class MobileBankApiTestV8 {
                 .get("/demo/accounts")
                 .then()
                 .statusCode(200)
-                .body("[0].currency", equalTo("RUB"));
+                .body("[0].currency", equalTo("RUR"));
     }
 }
